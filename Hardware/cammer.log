@@ -1,0 +1,17 @@
+2024-11-09 20:31:53,790 - cammer_logger - INFO - Running CAMmer
+2024-11-09 20:31:53,792 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2024-11-09 20:31:53,793 - cammer_logger - INFO - CAMMER START: 2024-11-09T20:31:53.793952
+2024-11-09 20:31:54,018 - cammer_logger - INFO - 
+START: 2024-11-09T20:31:53.793952
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-F_Cu.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GTL
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-B_Cu.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GBL
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-F_Paste.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GTP
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-B_Paste.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GBP
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-F_Silkscreen.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GTO
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-B_Silkscreen.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GBO
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-F_Mask.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GTS
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-B_Mask.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GBS
+Renaming C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation-Edge_Cuts.gbr to C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\SparkFun_Qwiic_Navigation.GKO
+Drill report: C:\Users\lenny\Dropbox\Projects\SparkFun_Qwiic_Navigation\Hardware\drill_report.rpt
+
+2024-11-09 20:31:55,591 - cammer_logger - INFO - CAMmer complete
