@@ -2,9 +2,9 @@ Now that we have our library and board add-on installed, we can start experiment
 
 
 
-### Example 1: Read Buttons, Write LEDs
+### Example 1: Read Switches, Write LEDs
 
-From your downloads, open the example labeled as **Example1-ReadButtons_WriteLEDs.ino**. This example reads the button presses and writes to the non-addressable LED using the PCA9554 I/O I<sup>2</sup>C Expander.
+From your downloads, open the example labeled as **Example1-ReadButtons_WriteLEDs.ino**. This example reads a switch and writes to the non-addressable LED using the PCA9554 I/O I<sup>2</sup>C Expander.
 
 For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 IoT RedBoard**) and the correct Port it enumerated on.
 
@@ -12,7 +12,7 @@ You can also copy or paste the code as shown below. Then click "Upload".
 
 ``` c++
 /*
-  Using the Qwiic Directional Pad
+  Using the Qwiic Navigation Switch
   By: Nathan Seidle
   SparkFun Electronics
   Date: October 8th, 2024
@@ -20,14 +20,14 @@ You can also copy or paste the code as shown below. Then click "Upload".
   License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
 
   Feel like supporting our work? Buy a board from SparkFun!
-  https://www.sparkfun.com/products/14733
+  https://www.sparkfun.com/products/27576 - Navigation Switch
 
-  This example demonstrates how to use pinMode and digitalRead/Write to read the directional pad and turn
+  This example demonstrates how to use pinMode and digitalRead/Write to read the Navigation Switch and turn
   on/off the RGB LED channels.
 
   Hardware Connections:
   Plug the Qwiic board to your Arduino/ESP32 or other
-  Press the buttons
+  Push the joystick-like switch toward a direction
   Watch each LED turn on one-at-a-time
 */
 
@@ -48,7 +48,7 @@ void setup()
 {
   Serial.begin(115200);
   delay(250);
-  Serial.println("Qwiic Directional Pad Example");
+  Serial.println("Qwiic Navigation Switch Example");
 
   Wire.begin();
 
@@ -73,7 +73,7 @@ void setup()
   greenOff();
   blueOff();
 
-  Serial.println("Qwiic Directional Pad online!");
+  Serial.println("Qwiic Navigation Switch online!");
 }
 
 void loop()
@@ -151,6 +151,7 @@ void blueOff()
 {
   io.digitalWrite(ledBlue, HIGH);
 }
+
 ```
 
 After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) or terminal emulator of your choice with the baud rate set to **115200**. Push the tactile switch toward a direction. You will notice a serial output indicating which switch was pushed in the Arduino Serial Monitor. Looking to the board, you will notice the LED changing color with respect to the switch being pushed.
@@ -173,7 +174,7 @@ After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/t
 !!! note
     Example 3 from the SparkFun I2C Expander Arduino Library uses the IoT RedBoard - ESP32's pin `14` for the interrupt. The example in this tutorial is slightly different and uses pin `4` for the interrupt.
 
-From your downloads, open the example labeled as **Example2_InterruptReadButtons_WriteLEDs.ino**. This example reads the button presses and writes to the non-addressable LED whenever there is an interrupt using the PCA9554 I/O I<sup>2</sup>C Expander. Make sure to connect the Qwiic Navigation Switch's interrupt pin to the IoT RedBoard's pin `4`.
+From your downloads, open the example labeled as **Example2_InterruptReadButtons_WriteLEDs.ino**. This example reads a switch and writes to the non-addressable LED whenever there is an interrupt using the PCA9554 I/O I<sup>2</sup>C Expander. Make sure to connect the Qwiic Navigation Switch's interrupt pin to the IoT RedBoard's pin `4`.
 
 For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 IoT RedBoard**) and the correct Port it enumerated on.
 
@@ -185,7 +186,7 @@ You can also copy or paste the code as shown below. Then click "Upload".
   Modified by: Ho Yun "Bobby" Chan
   Orignally Written By: Nathan Seidle
   SparkFun Electronics
-  Date: November 22nd, 2024
+  Date: December 3rd, 2024
 
   License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
 
@@ -193,14 +194,15 @@ You can also copy or paste the code as shown below. Then click "Upload".
   https://www.sparkfun.com/products/17047 - Qwiic GPIO
   https://www.sparkfun.com/products/26784 - Qwiic Power Switch
   https://www.sparkfun.com/products/26851 - Qwiic Directional Pad
+  https://www.sparkfun.com/products/27576 - Qwiic Navigation Switch
 
-  This example demonstrates how to use interrupts to check for new pin changes on the Qwiic Directional Pad
+  This example demonstrates how to use interrupts to check for new pin changes on the Qwiic Navigation Switch
   and turn on/off the RGB LED channels
 
   Hardware Connections:
-  Plug the Qwiic Directional Pad into a Qwiic enabled board (SparkFun Thing Plus C, RedBoard, RedBoard IoT, etc)
+  Plug the Qwiic Navigation Switch into a Qwiic enabled board (SparkFun Thing Plus C, RedBoard, RedBoard IoT, etc)
   If you don't have a platform with a Qwiic connection use the SparkFun Qwiic Breadboard Jumper (https://www.sparkfun.com/products/17912)
-  Connect a wire from a GPIO pin that is interrupt capable to the !INT pin on the Qwiic Directional Pad
+  Connect a wire from a GPIO pin that is interrupt capable to the !INT pin on the Qwiic Navigation Switch
   Open the serial monitor at 115200 baud to see the output.
 */
 
@@ -234,7 +236,7 @@ void IRAM_ATTR gpioExpanderISR() {
 void setup() {
   Serial.begin(115200);
   delay(250);
-  Serial.println("Qwiic Directional Pad Example");
+  Serial.println("Qwiic Navigation Switch Example");
 
   Wire.begin();
 
@@ -259,7 +261,7 @@ void setup() {
   greenOff();
   blueOff();
 
-  Serial.println("Qwiic Directional Pad online!");
+  Serial.println("Qwiic Navigation Switch online!");
 
   attachInterrupt(gpioExpander_interrupt, gpioExpanderISR, CHANGE);
 }

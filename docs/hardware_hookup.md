@@ -1,10 +1,10 @@
-In this section, we will go over how to connect to the Qwiic Navigational Switch.
+In this section, we will go over how to connect to the Qwiic Navigation Switch.
 
 
 
 ### Connecting Via Qwiic
 
-Insert a Qwiic cable between your Arduino microcontroller and the Qwiic Navigational Switch. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board for the Arduino microcontroller. When ready, connect a USB cable to the Arduino to program, power, and view serial messages.
+Insert a Qwiic cable between your Arduino microcontroller and the Qwiic Navigation Switch. In this case, we used the SparkFun IoT RedBoard - ESP32 Development Board for the Arduino microcontroller. When ready, connect a USB cable to the Arduino to program, power, and view serial messages.
 
 <div style="text-align: center;">
   <table>
@@ -56,7 +56,7 @@ For temporary connections to the PTHs, you could use IC hooks to test out the pi
 
 ### Interrupt
 
-For users that want to notify the microcontroller that the switch is pushed toward a direction, you could connect the INT pin to one of the Arduino's interrupts. In this case, we connected the Navigation Switch's INT pin to IoT RedBoard's pin 4.
+For users that want to notify the microcontroller that the switch is pushed toward a direction, you could connect the INT pin to one of the Arduino's interrupts. In this case, we connected the Navigation Switch's INT pin to the IoT RedBoard's pin 4.
 
 <div style="text-align: center;">
   <table>

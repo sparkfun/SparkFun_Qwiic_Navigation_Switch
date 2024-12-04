@@ -1,7 +1,7 @@
 
 
 
-The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/products/27576) adds a 5-way tactile switch to your I<sup>2</sup>C bus! When connected to a microcontroller, push the 5-way tactile switch toward a direction (up, down, left, right, or center) to provide additional input for your application. The built-in RGB status LED provides visual feedback indicating which button is pressed.
+The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/products/27576) adds a small, joystick-like 5-way tactile switch to your I<sup>2</sup>C bus! When connected to a microcontroller, push the 5-way tactile switch toward a direction (up, down, left, right, or center) to provide additional input for your application. The built-in RGB status LED provides visual feedback indicating when a switch is pushed.
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->

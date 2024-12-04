@@ -13,9 +13,21 @@ Now that you've successfully got your SparkFun Qwiic Navigation Switch up and ru
 
 
 
-Or check out the Qwiic Button or Qwiic Joystick for more ideas!
+Or check out the Qwiic Directional Pad, Qwiic Button, or Qwiic Joystick for more ideas!
 
 <div class="grid cards col-4" markdown>
+<!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->
+-   <a href="https://docs.sparkfun.com/SparkFun_Qwiic_Directional_Pad/introduction/">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/9/6/9/26851-Qwiic-Directional-Pad-Feature.jpg" style="width:264px; height:148px; object-fit:contain;" alt="SparkFun Qwiic Directional Pad Hookup Guide">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://docs.sparkfun.com/SparkFun_Qwiic_Directional_Pad/introduction/">
+      <b>SparkFun Qwiic Directional Pad Hookup Guide</b>
+    </a>
 <!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->
 -   <a href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide">
       <figure markdown>

@@ -1,4 +1,4 @@
-In this section, we will highlight the hardware and pins that are broken out on the SparkFun Qwiic Directional Pad. For more information, check out our [Resources and Going Further](../resources/) on the components used on the breakout board.
+In this section, we will highlight the hardware and pins that are broken out on the SparkFun Qwiic Navigation Switch. For more information, check out our [Resources and Going Further](../resources/) on the components used on the breakout board.
 
 <div style="text-align: center;">
   <table>
@@ -17,7 +17,7 @@ In this section, we will highlight the hardware and pins that are broken out on 
 
 ### Power
 
-To power the board, you will need **3.3V**. You can connect a Qwiic cable to Qwiic connector on either side of the board or you can solder directly to the PTHs. Below are the power pins that are broken out on the edge of the board.
+To power the board, you will need **3.3V**. You can connect a Qwiic cable to the Qwiic connector on either side of the board or you can solder directly to the PTHs. Below are the power pins that are broken out on the edge of the board.
 
 * **3V3** &mdash; This pin is the voltage input for the board. The recommended input voltage for this pin is 3.3V.
 * **GND** &mdash; Of course, is the common, ground voltage (0V reference) for the system.
@@ -39,15 +39,15 @@ To power the board, you will need **3.3V**. You can connect a Qwiic cable to Qwi
 
 ### 5-Way Tactile Switch
 
-A small 5-way tactile switch is populated on the top side of the board and allows for a joystick-like interface in a very small package! Each pad includes a momentary switch that is read by the PCA9554 8-bit I<sup>2</sup>C I/O expander that is populated on the bottom of the board.
+A small 5-way tactile switch is populated on the top side of the board and allows for a joystick-like interface in a very small package! Each direction includes a momentary switch that is read by the PCA9554 8-bit I<sup>2</sup>C I/O expander that is populated on the bottom of the board.
 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="5-Way Directional Pad Highlighted - Top View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="5-Way Tactile Switch Highlighted - Top View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>5-Way Directional Pad Highlighted - Top View</i></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>5-Way Tactile Switch Highlighted - Top View</i></td>
     </tr>
   </table>
 </div>
@@ -56,13 +56,13 @@ A small 5-way tactile switch is populated on the top side of the board and allow
 
 ### PCA9554 8-bit I<sup>2</sup>C I/O Expander
 
-The TI PCA9554 that is populated on the bottom side of the board is an 8-bit I<sup>2</sup>C I/O expander that enables users to read and write to the following GPIO pins through I<sup>2</sup>C. It is used to read the 5-way directional pad or write to the non-addressable RGB LED. The I<sup>2</sup>C address of the PCA9554 is set to **0x20** by default. By adjusting the jumpers on the back of the board, the alternative address can be set to any value between _0x21_ to _0x27_.
+The TI PCA9554 that is populated on the bottom side of the board is an 8-bit I<sup>2</sup>C I/O expander that enables users to read and write to the following GPIO pins through I<sup>2</sup>C. It is used to read the 5-way tactile switch or write to the non-addressable RGB LED. The I<sup>2</sup>C address of the PCA9554 is set to **0x20** by default. By adjusting the jumpers on the back of the board, the alternative address can be set to any value between _0x21_ to _0x27_.
 
-* **GPIO0** &mdash; GPIO0 is connected to the 5-way directional pad's UP switch. A 10k&ohm; pull-up resistor is connected.
-* **GPIO1** &mdash; GPIO1 is connected to the 5-way directional pad's DOWN switch. A 10k&ohm; pull-up resistor is connected.
-* **GPIO2** &mdash; GPIO3 is connected to the 5-way directional pad's RIGHT switch. A 10k&ohm; pull-up resistor is connected.
-* **GPIO3** &mdash; GPIO4 is connected to the 5-way directional pad's LEFT switch. A 10k&ohm; pull-up resistor is connected.
-* **GPIO4** &mdash; GPIO4 is connected to the 5-way directional pad's CENTER switch. A 10k&ohm; pull-up resistor is connected.
+* **GPIO0** &mdash; GPIO0 is connected to the 5-way Navigation Switch's UP switch. A 10k&ohm; pull-up resistor is connected.
+* **GPIO1** &mdash; GPIO1 is connected to the 5-way Navigation Switch's DOWN switch. A 10k&ohm; pull-up resistor is connected.
+* **GPIO2** &mdash; GPIO3 is connected to the 5-way Navigation Switch's RIGHT switch. A 10k&ohm; pull-up resistor is connected.
+* **GPIO3** &mdash; GPIO4 is connected to the 5-way Navigation Switch's LEFT switch. A 10k&ohm; pull-up resistor is connected.
+* **GPIO4** &mdash; GPIO4 is connected to the 5-way Navigation Switch's CENTER switch. A 10k&ohm; pull-up resistor is connected.
 * **GPIO5** &mdash; GPIO5 is connected to the blue LED. The LED can be disconnected if users decide to use a different input to the GPIO5's PTH.
 * **GPIO6** &mdash; GPIO6 is connected to the green LED. The LED can be disconnected if users decide to use a different input to the GPIO6's PTH.
 * **GPIO7** &mdash; GPIO7 is connected to the red LED. The LED can be disconnected if users decide to use a different input to the GPIO7's PTH.
@@ -107,7 +107,7 @@ As explained in the previous section, the I<sup>2</sup>C address of the PCA9554 
 
 ### Interrupt
 
-The interrupt pin labeled as INT is for users that want to notify a microcontroller that there is a button being pressed down on the 5-way tactile switch. This pin is active low.
+The interrupt pin labeled as INT is for users that want to notify a microcontroller that there is a switch being pushed on the 5-way tactile switch. This pin is active low.
 
 <div style="text-align: center;">
   <table>
@@ -128,11 +128,11 @@ The interrupt pin labeled as INT is for users that want to notify a microcontrol
 The board includes two LEDs on the top and bottom of the board. Both can be disabled with the jumpers on the back of the board.
 
 * **PWR** &mdash; On the bottom side of the board, the power LED indicates when power is available on 3.3V.
-* **STAT** &mdash; The status LED is a non-addressable RGB LED that is used to indicate which button is being pressed on the 5-way directional pad. While this is populated on the bottom of the board, it will light up through the hole toward the top side of the board. Each channel can be disabled with the jumper on the back for users that want to connect them to some other input. Note that two colors were not used since there were only 5 buttons available on the directional pad.
+* **STAT** &mdash; The status LED is a non-addressable RGB LED that is used to indicate which switch is being pushed on the 5-way tactile switch. While this is populated on the bottom of the board, it will light up through the hole toward the top side of the board. Each channel can be disabled with the jumper on the back for users that want to connect them to some other input. Note that two colors were not used since there were only 5 switches available on the tactile switch.
 <div style="text-align: center;">
     <table>
         <tr>
-            <th style="text-align: center; border: solid 1px #cccccc;">Button Press
+            <th style="text-align: center; border: solid 1px #cccccc;">Switch Direction
             </th>
             <th style="text-align: center; border: solid 1px #cccccc;">Color
             </th>
@@ -203,7 +203,7 @@ The board includes two LEDs on the top and bottom of the board. Both can be disa
             <td style="text-align: center; border: solid 1px #cccccc;">1
             </td>
         </tr>
-            <tr><td style="text-align: center; border: solid 1px #cccccc;"><i>No Button Press</i>
+            <tr><td style="text-align: center; border: solid 1px #cccccc;"><i>No Switch Push</i>
             </td>          
             <td style="text-align: center; border: solid 1px #cccccc;">OFF
             </td>
@@ -264,11 +264,11 @@ The board includes two LEDs on the top and bottom of the board. Both can be disa
 The back of the board includes jumpers to configure the board.
 
 * **PWR** &mdash; By default, the power jumper connects the LED to the output's 3.3V pin. Cutting this trace disables the LED.
-* **7** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO7 and the red channel from the RGB LED. One disabled, GPIO7 is available for users that want to connect them to some other input.
-* **6** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO6 and the green channel from the RGB LED. One disabled, GPIO6 is available for users that want to connect them to some other input.
-* **5** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO5 and the blue channel from the RGB LED. One disabled, GPIO5 is available for users that want to connect them to some other input.
+* **7** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO7 and the red channel from the RGB LED. Once disabled, GPIO7 is available for users that want to connect them to some other input.
+* **6** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO6 and the green channel from the RGB LED. Once disabled, GPIO6 is available for users that want to connect them to some other input.
+* **5** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO5 and the blue channel from the RGB LED. Once disabled, GPIO5 is available for users that want to connect them to some other input.
 * **I<sup>2</sup>C** &mdash; By default, this three-pad jumper is closed. The three way jumper labeled I<sup>2</sup>C connects 3.3V to two 2.2k&ohm; pull-up resistors and to the I<sup>2</sup>C data and clock lines. If multiple devices are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, [disable all but one pair of pull-up resistors](https://learn.sparkfun.com/tutorials/i2c/all#i2c-at-the-hardware-level) if multiple devices are connected to the bus.
-* **ADR**  &mdash; By default, the three jumpers **0**, **1**, and **2** are open. These set the I<sup>2</sup>C address of the Qwiic Directional Pad. Adding a solder blob will close the jumper and set the jumper as a `1`. Below shows the table needed to configure the three jumpers to achieve the desired I<sup>2</sup>C address.
+* **ADR**  &mdash; By default, the three jumpers **0**, **1**, and **2** are open. These set the I<sup>2</sup>C address of the Qwiic Navigation Switch. Adding a solder blob will close the jumper and set the jumper as a `1`. Below shows the table needed to configure the three jumpers to achieve the desired I<sup>2</sup>C address.
 <div style="text-align: center;">
     <table>
         <tr>

@@ -70,6 +70,8 @@ void loop()
   if (io.digitalRead(buttonUp) == LOW)
   {
     Serial.print("Up");
+
+    //RED
     redOn();
     greenOff();
     blueOff();
@@ -77,6 +79,8 @@ void loop()
   else if (io.digitalRead(buttonDown) == LOW)
   {
     Serial.print("Down");
+
+    //GREEN
     redOff();
     greenOn();
     blueOff();
@@ -84,6 +88,8 @@ void loop()
   else if (io.digitalRead(buttonLeft) == LOW)
   {
     Serial.print("Left");
+
+    //MAGENTA
     redOn();
     greenOff();
     blueOn();
@@ -91,6 +97,8 @@ void loop()
   else if (io.digitalRead(buttonRight) == LOW)
   {
     Serial.print("Right");
+
+    //CYAN
     redOff();
     greenOn();
     blueOn();
@@ -98,6 +106,8 @@ void loop()
   else if (io.digitalRead(buttonCenter) == LOW)
   {
     Serial.print("Center");
+
+    //WHITE
     redOn();
     greenOn();
     blueOn();
@@ -105,6 +115,8 @@ void loop()
   else
   {
     Serial.print(" None");
+
+    //OFF
     redOff();
     greenOff();
     blueOff();
