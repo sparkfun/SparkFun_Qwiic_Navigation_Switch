@@ -1,7 +1,7 @@
 Now that you've successfully got your SparkFun Qwiic Navigation Switch up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
 
-* [Schematic (PDF)](../assets/board_files/SparkFun_Qwiic_Navigation_Switch_v10_Schematic.pdf)
-* [KiCad Files (ZIP)](../assets/board_files/SparkFun_Qwiic_Navigation_Switch_v10.zip)
+* [Schematic (PDF)](../assets/board_files/SparkFun_Qwiic_Navigation_Switch_v11_Schematic.pdf)
+* [KiCad Files (ZIP)](../assets/board_files/SparkFun_Qwiic_Navigation_Switch_v11.zip)
 * [3D Model (STEP)](../assets/3d_model/SparkFun_Qwiic_Navigation_3d_model.step)
 * [Board Dimensions (PNG)](../assets/img/SparkFun_Qwiic_Navigation_Switch_Board_Dimensions.png)
 * Component Datasheets
