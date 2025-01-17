@@ -1,9 +1,9 @@
 SparkFun Qwiic Navigational Switch
 ========================================
 
-[![SparkFun Qwiic Navigational Switch]()](https://www.sparkfun.com/products/27576)
+[![SparkFun Qwiic Navigational Switch](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/8/0/0/PRT-27576-Qwiic-Navigation-Switch-Feature.jpg)](
 
-[*SparkFun Qwiic Navigational Switch (PRT-27576)*](https://www.sparkfun.com/products/26851)
+[*SparkFun Qwiic Navigational Switch (PRT-27576)*](
 
 <Basic description of the part.>
 
