@@ -9,7 +9,7 @@ Insert a Qwiic cable between your Arduino microcontroller and the Qwiic Navigati
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="IoT RedBoard - ESP32 and Qwiic Navigation Switch Connectedvia Qwiic"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_ESP32_PCA9554_IO_Expande.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_ESP32_PCA9554_IO_Expande.jpg" width="600px" height="600px" alt="IoT RedBoard - ESP32 and Qwiic Navigation Switch Connectedvia Qwiic"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>IoT RedBoard - ESP32 and Qwiic Navigation Switch Connected via Qwiic</i></td>
@@ -61,7 +61,7 @@ For users that want to notify the microcontroller that the switch is pushed towa
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="IoT RedBoard - ESP32 and Qwiic Navigation Switch Connected via Qwiic and Interrupt Pin"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_ESP32_PCA9554_IO_Expander_Interrupt.jpg.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_ESP32_PCA9554_IO_Expander_Interrupt.jpg.jpg" width="600px" height="600px" alt="IoT RedBoard - ESP32 and Qwiic Navigation Switch Connected via Qwiic and Interrupt Pin"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>IoT RedBoard - ESP32 and Qwiic Navigation Switch Connected via Qwiic and Interrupt Pin</i></td>

@@ -7,7 +7,7 @@ The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/products/27576) 
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/27576">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/8/0/0/PRT-27576-Qwiic-Navigation-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
       </figure>
     </a>
 
@@ -62,7 +62,7 @@ To follow along with this tutorial, you will need the following materials. You m
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/27576">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
+        <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/8/0/0/PRT-27576-Qwiic-Navigation-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
       </figure>
     </a>
 

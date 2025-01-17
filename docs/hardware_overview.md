@@ -3,8 +3,8 @@ In this section, we will highlight the hardware and pins that are broken out on 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_View.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_View.jpg" width="600px" height="600px" alt="Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_View.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_View.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Top View</i></td>
@@ -25,8 +25,8 @@ To power the board, you will need **3.3V**. You can connect a Qwiic cable to the
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Power and Ground Highlighted - Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Power, Ground, and Qwiic Connector Highlighted - Bottom View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_Power_Ground.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_Power_Ground.jpg" width="600px" height="600px" alt="Power and Ground Highlighted - Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Power_Ground.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Power_Ground.jpg" width="600px" height="600px" alt="Power, Ground, and Qwiic Connector Highlighted - Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
       <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Power and Ground Highlighted - Top View</i></td>
@@ -44,7 +44,7 @@ A small 5-way tactile switch is populated on the top side of the board and allow
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="5-Way Tactile Switch Highlighted - Top View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_5-way_Tactile_Switch.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_5-way_Tactile_Switch.jpg" width="600px" height="600px" alt="5-Way Tactile Switch Highlighted - Top View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
       <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>5-Way Tactile Switch Highlighted - Top View</i></td>
@@ -70,8 +70,8 @@ The TI PCA9554 that is populated on the bottom side of the board is an 8-bit I<s
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="PCA9554 Highlighted - Top View"></a></td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="PCA9554 Highlighted - Bottom View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_PCA9554_IO_I2C_Expander.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_PCA9554_IO_I2C_Expander.jpg" width="600px" height="600px" alt="PCA9554 Highlighted - Top View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_PCA9554_IO_I2C_Expander.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_PCA9554_IO_I2C_Expander.jpg" width="600px" height="600px" alt="PCA9554 Highlighted - Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;" colspan=2"><i>PCA9554 and Some GPIO Pins Highlighted<br />Top and Bottom View</i></td>
@@ -91,8 +91,8 @@ The board includes two horizontal Qwiic connectors to connect to other Qwiic-ena
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_I2C_PTH.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_I2C_PTH.jpg" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Qwiic_I2C_PTH.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Qwiic_I2C_PTH.jpg" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9554 Highlighted - Bottom View</i></td>
@@ -112,8 +112,8 @@ The interrupt pin labeled as INT is for users that want to notify a microcontrol
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Interrupt Highlighted - Top View"></a></td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Interrupt Highlighted  - Bottom View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_Interrupt.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_Interrupt.jpg" width="600px" height="600px" alt="Interrupt Highlighted - Top View"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Interrupt.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Interrupt.jpg" width="600px" height="600px" alt="Interrupt Highlighted  - Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;" colspan="2"><i>Interrupt Highlighted - Top and Bottom View</i></td>
@@ -245,8 +245,8 @@ The board includes two LEDs on the top and bottom of the board. Both can be disa
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_LEDs.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Top_LEDs.jpg" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_LEDs.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_LEDs.jpg" width="600px" height="600px" alt="LEDs Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;" colspan="2"><i>LEDs Highlighted Top and Bottom View</i></td>
@@ -367,7 +367,7 @@ The back of the board includes jumpers to configure the board.
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Jumpers Highlighted - Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Jumpers.jpg"><img src="../assets/img/PRT-27576_Qwiic_Navigation_Switch_Bottom_Jumpers.jpg" width="600px" height="600px" alt="Jumpers Highlighted - Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Jumpers Highlighted<br />Bottom View</i></td>
@@ -384,10 +384,10 @@ A 3D model of the board and components was exported to a STEP file using KiCad.
 <!-- Import the component -->
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<div style="text-align: center;">
+<center>
     <model-viewer src="../assets/3d_model/SparkFun_Qwiic_Navigation_3d_model.glb" camera-controls poster="../assets/3d_model/SparkFun_Qwiic_Navigation_Switch_3d_model_image.png" environment-image="legacy" shadow-intensity="1.58" exposure="0.64" shadow-softness="0.24" tone-mapping="neutral" camera-orbit="-46.67deg 57.14deg 153.3m" field-of-view="30deg" style="width: 750px; height: 500px;">
     </model-viewer>
-</div>
+</center>
 <br />
 <div style="text-align: center">
     <a href="../assets/3d_model/SparkFun_Qwiic_Navigation_3d_model.step" target="stp_file" class="md-button">Click Here for the STEP File</a>
