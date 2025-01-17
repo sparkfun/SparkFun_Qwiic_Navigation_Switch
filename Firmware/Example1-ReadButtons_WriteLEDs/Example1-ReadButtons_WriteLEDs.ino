@@ -1,15 +1,15 @@
 /*
-  Using the Qwiic Navigation Switch
+  Using the Qwiic 5-way Navigation switch
   By: Nathan Seidle
   SparkFun Electronics
   Date: October 8th, 2024
 
-  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
+  License: This code is public domain but you buy me a drink if you use this and we meet someday (Drinkware license).
 
   Feel like supporting our work? Buy a board from SparkFun!
   https://www.sparkfun.com/products/27576 - Navigation Switch
 
-  This example demonstrates how to use pinMode and digitalRead/Write to read the Navigation Switch and turn
+  This example demonstrates how to use pinMode and digitalRead/Write to read the 5-way navigation switch and turn
   on/off the RGB LED channels.
 
   Hardware Connections:
@@ -20,7 +20,7 @@
 
 #include <SparkFun_I2C_Expander_Arduino_Library.h> // Click here to get the library: http://librarymanager/All#SparkFun_I2C_Expander_Arduino_Library
 
-SFE_PCA95XX io; // Defaults to the PCA9554 at I2C address 0x20
+SFE_PCA95XX io(PCA95XX_PCA9554); // Create an instance with the PCA9554 IC
 
 int buttonUp = 0;
 int buttonDown = 1;
@@ -35,12 +35,12 @@ void setup()
 {
   Serial.begin(115200);
   delay(250);
-  Serial.println("Qwiic Navigation Switch Example");
+  Serial.println("Qwiic 5-Way Navigation Switch Example");
 
   Wire.begin();
 
-  // Initialize the PCA9554, default address = 0x20
-  if (io.begin() == false) //Device Address, Number of GPIO
+  // Initialize the PCA95xx, default address = 0x20
+  if (io.begin() == false)
   {
     Serial.println("PCA9554 not detected. Please check wiring. Freezing...");
     while (1)
@@ -60,7 +60,7 @@ void setup()
   greenOff();
   blueOff();
 
-  Serial.println("Qwiic Navigation Switch online!");
+  Serial.println("Qwiic 5-Way Navigation Switch online!");
 }
 
 void loop()
@@ -70,8 +70,6 @@ void loop()
   if (io.digitalRead(buttonUp) == LOW)
   {
     Serial.print("Up");
-
-    //RED
     redOn();
     greenOff();
     blueOff();
@@ -79,8 +77,6 @@ void loop()
   else if (io.digitalRead(buttonDown) == LOW)
   {
     Serial.print("Down");
-
-    //GREEN
     redOff();
     greenOn();
     blueOff();
@@ -88,8 +84,6 @@ void loop()
   else if (io.digitalRead(buttonLeft) == LOW)
   {
     Serial.print("Left");
-
-    //MAGENTA
     redOn();
     greenOff();
     blueOn();
@@ -97,8 +91,6 @@ void loop()
   else if (io.digitalRead(buttonRight) == LOW)
   {
     Serial.print("Right");
-
-    //CYAN
     redOff();
     greenOn();
     blueOn();
@@ -106,17 +98,13 @@ void loop()
   else if (io.digitalRead(buttonCenter) == LOW)
   {
     Serial.print("Center");
-
-    //WHITE
     redOn();
     greenOn();
     blueOn();
   }
   else
   {
-    Serial.print(" None");
-
-    //OFF
+    Serial.print("None");
     redOff();
     greenOff();
     blueOff();
