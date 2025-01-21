@@ -264,9 +264,9 @@ The board includes two LEDs on the top and bottom of the board. Both can be disa
 The back of the board includes jumpers to configure the board.
 
 * **PWR** &mdash; By default, the power jumper connects the LED to the output's 3.3V pin. Cutting this trace disables the LED.
-* **7** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO7 and the red channel from the RGB LED. Once disabled, GPIO7 is available for users that want to connect them to some other input.
-* **6** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO6 and the green channel from the RGB LED. Once disabled, GPIO6 is available for users that want to connect them to some other input.
-* **5** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO5 and the blue channel from the RGB LED. Once disabled, GPIO5 is available for users that want to connect them to some other input.
+* **7** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO7 and the red channel from the RGB LED. Once disabled, GPIO7 is available for users that want to connect them to some other input/output.
+* **6** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO6 and the green channel from the RGB LED. Once disabled, GPIO6 is available for users that want to connect them to some other input/output.
+* **5** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO5 and the blue channel from the RGB LED. Once disabled, GPIO5 is available for users that want to connect them to some other input/output.
 * **I<sup>2</sup>C** &mdash; By default, this three-pad jumper is closed. The three way jumper labeled I<sup>2</sup>C connects 3.3V to two 2.2k&ohm; pull-up resistors and to the I<sup>2</sup>C data and clock lines. If multiple devices are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, [disable all but one pair of pull-up resistors](https://learn.sparkfun.com/tutorials/i2c/all#i2c-at-the-hardware-level) if multiple devices are connected to the bus.
 * **ADR**  &mdash; By default, the three jumpers **0**, **1**, and **2** are open. These set the I<sup>2</sup>C address of the Qwiic Navigation Switch. Adding a solder blob will close the jumper and set the jumper as a `1`. Below shows the table needed to configure the three jumpers to achieve the desired I<sup>2</sup>C address.
 <div style="text-align: center;">
@@ -397,7 +397,7 @@ A 3D model of the board and components was exported to a STEP file using KiCad.
 
 ### Board Dimensions
 
-The board is 1.0" x 1.0" (25.4mm x 25.4mm). There are 2x mounting holes. You can use 4-40 standoffs to mount the board to a panel or enclosure.
+The board is 1.0" x 1.0" (25.4mm x 25.4mm). There are 4x mounting holes. You can use 4-40 standoffs to mount the board to a panel or enclosure.
 
 <div style="text-align: center;">
   <table>
