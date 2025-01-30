@@ -1,11 +1,11 @@
 
 
 
-The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/products/27576) adds a small, joystick-like 5-way tactile switch to your I<sup>2</sup>C bus! When connected to a microcontroller, push the 5-way tactile switch toward a direction (up, down, left, right, or center) to provide additional input for your application. The built-in RGB status LED provides visual feedback indicating when a switch is pushed.
+The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html) adds a small, joystick-like 5-way tactile switch to your I<sup>2</sup>C bus! When connected to a microcontroller, push the 5-way tactile switch toward a direction (up, down, left, right, or center) to provide additional input for your application. The built-in RGB status LED provides visual feedback indicating when a switch is pushed.
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/27576">
+-   <a href="https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/8/0/0/PRT-27576-Qwiic-Navigation-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
       </figure>
@@ -13,12 +13,12 @@ The [SparkFun Qwiic Navigation Switch](https://www.sparkfun.com/products/27576) 
 
     ---
 
-    <a href="https://www.sparkfun.com/products/27576">
+    <a href="https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html">
       <b>SparkFun Qwiic Navigation Switch</b>
       <br />
       PRT-27576
       <br />
-      <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/27576){ .md-button .md-button--primary }</center>
+      <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html){ .md-button .md-button--primary }</center>
     </a>
 </div>
 
@@ -60,7 +60,7 @@ To follow along with this tutorial, you will need the following materials. You m
       WRL-19177
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/27576">
+-   <a href="https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/8/0/0/PRT-27576-Qwiic-Navigation-Switch-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Navigation Switch">
       </figure>
@@ -68,7 +68,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
     ---
 
-    <a href="https://www.sparkfun.com/products/27576">
+    <a href="https://www.sparkfun.com/sparkfun-qwiic-navigation-switch.html">
       <b>SparkFun Qwiic Navigation Switch</b>
       <br />
       PRT-27576
